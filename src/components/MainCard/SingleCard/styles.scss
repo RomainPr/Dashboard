@@ -1,0 +1,25 @@
+@use 'src/styles/vars';
+
+.singleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: vars.$card;
+    width: 250px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 2% 0 0 2%;
+    &__title {
+        font-size: 1.3em;
+        padding-bottom: 1.5em;
+    }
+    &__hours {
+        font-size: 2em;
+        padding-bottom: 0.5em;
+    }
+    &__time {
+        color: #b2b7f9;
+        font-size: 0.8em;
+    }
+}
